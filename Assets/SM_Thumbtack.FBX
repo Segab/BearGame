@@ -10,11 +10,11 @@ FBXHeaderExtension:  {
 		Version: 1000
 		Year: 2019
 		Month: 1
-		Day: 11
-		Hour: 23
-		Minute: 42
-		Second: 33
-		Millisecond: 127
+		Day: 12
+		Hour: 0
+		Minute: 47
+		Second: 9
+		Millisecond: 989
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2014"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 04:42:33.127"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:47:09.985"
 			P: "Original|FileName", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GAMEJAM2019\BearGame\Assets\SM_Thumbtack.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 04:42:33.127"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:47:09.985"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GameJam2019.max"
 		}
@@ -62,7 +62,7 @@ GlobalSettings:  {
 		P: "UnitScaleFactor", "double", "Number", "",1
 		P: "OriginalUnitScaleFactor", "double", "Number", "",1
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
-		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "DefaultCamera", "KString", "", "", "Producer Front"
 		P: "TimeMode", "enum", "", "",6
 		P: "TimeProtocol", "enum", "", "",2
 		P: "SnapOnFrameMode", "enum", "", "",0
@@ -79,7 +79,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2802855296, "", "Scene" {
+	Document: 2539554016, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -99,7 +99,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 13
+	Count: 17
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -223,7 +223,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "CollectionExclusive" {
-		Count: 6
+		Count: 10
 		PropertyTemplate: "FbxDisplayLayer" {
 			Properties70:  {
 				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
@@ -239,7 +239,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2702344752, "Geometry::", "Mesh" {
+	Geometry: 2705955808, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.580392156862745,0.105882352941176
 		}
@@ -382,7 +382,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2702340400, "Geometry::", "Mesh" {
+	Geometry: 2705957984, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.56078431372549,0.341176470588235
 		}
@@ -459,7 +459,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2699163264, "Model::SM_Thumbtack", "Mesh" {
+	Model: 2699154496, "Model::SM_Thumbtack", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -467,13 +467,14 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.450493961572647,0.450493961572647,0.315100491046906
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0.00725460052490234,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.838402986526489,0.838402986526489,0.586425602436066
 			P: "MaxHandle", "int", "Integer", "UH",22
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2744740656, "Model::UCX_SM_Thumbtack", "Mesh" {
+	Model: 3018830848, "Model::UCX_SM_Thumbtack", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -481,52 +482,69 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
+			P: "Lcl Translation", "Lcl Translation", "", "A",0,0.00725460052490234,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.86107492446899,1.86107492446899,1.86107492446899
 			P: "MaxHandle", "int", "Integer", "UH",43
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	AnimationStack: 2574488112, "AnimStack::Take 001", "" {
+	AnimationStack: 2754856608, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 1660088864, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2578812848, "AnimLayer::BaseLayer", "" {
 	}
-	CollectionExclusive: 2749581456, "DisplayLayer::SM_Book", "DisplayLayer" {
+	CollectionExclusive: 2749596432, "DisplayLayer::SM_Book", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.109803921568627,0.109803921568627,0.694117647058824
-			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749589328, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
+	CollectionExclusive: 2749592976, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
-			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749583184, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
+	CollectionExclusive: 2749595088, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.56078431372549,0.341176470588235
-			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749592016, "DisplayLayer::Post-it-stack", "DisplayLayer" {
+	CollectionExclusive: 2749595472, "DisplayLayer::Post-it-stack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
-			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749581648, "DisplayLayer::SM_Pencil", "DisplayLayer" {
+	CollectionExclusive: 2749579536, "DisplayLayer::SM_Pencil", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.345098039215686,0.694117647058824,0.105882352941176
-			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749583760, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
+	CollectionExclusive: 2749568784, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
+		}
+	}
+	CollectionExclusive: 2749574736, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.580392156862745
+		}
+	}
+	CollectionExclusive: 2749577232, "DisplayLayer::SM_Eraser", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.83921568627451,0.894117647058823,0.6
+		}
+	}
+	CollectionExclusive: 2749574160, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.341176470588235,0.56078431372549
+		}
+	}
+	CollectionExclusive: 2749574352, "DisplayLayer::SM_Brush", "DisplayLayer" {
+		Properties70:  {
+			P: "Color", "ColorRGB", "Color", "",0.529411764705882,0.0235294117647059,0.0235294117647059
 		}
 	}
 }
@@ -537,25 +555,25 @@ Objects:  {
 Connections:  {
 	
 	;Model::SM_Thumbtack, Model::RootNode
-	C: "OO",2699163264,0
+	C: "OO",2699154496,0
 	
 	;Model::UCX_SM_Thumbtack, Model::RootNode
-	C: "OO",2744740656,0
+	C: "OO",3018830848,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",1660088864,2574488112
+	C: "OO",2578812848,2754856608
 	
 	;Geometry::, Model::SM_Thumbtack
-	C: "OO",2702344752,2699163264
+	C: "OO",2705955808,2699154496
 	
 	;Geometry::, Model::UCX_SM_Thumbtack
-	C: "OO",2702340400,2744740656
+	C: "OO",2705957984,3018830848
 	
 	;Model::UCX_SM_Thumbtack, DisplayLayer::SM_Thumbtack
-	C: "OO",2744740656,2749583760
+	C: "OO",3018830848,2749568784
 	
 	;Model::SM_Thumbtack, DisplayLayer::SM_Thumbtack
-	C: "OO",2699163264,2749583760
+	C: "OO",2699154496,2749568784
 }
 ;Takes section
 ;----------------------------------------------------
