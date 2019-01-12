@@ -11,10 +11,10 @@ FBXHeaderExtension:  {
 		Year: 2019
 		Month: 1
 		Day: 12
-		Hour: 7
-		Minute: 55
-		Second: 58
-		Millisecond: 861
+		Hour: 8
+		Minute: 13
+		Second: 17
+		Millisecond: 837
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2014"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 12:55:58.860"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 13:13:17.834"
 			P: "Original|FileName", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GAMEJAM2019\BearGame\Assets\SM_Cardboard.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 12:55:58.860"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 13:13:17.834"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GameJam2019.max"
 		}
@@ -79,7 +79,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2360028864, "", "Scene" {
+	Document: 2451257888, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -99,7 +99,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 21
+	Count: 19
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -132,7 +132,7 @@ Definitions:  {
 		}
 	}
 	ObjectType: "Model" {
-		Count: 3
+		Count: 2
 		PropertyTemplate: "FbxNode" {
 			Properties70:  {
 				P: "QuaternionInterpolate", "enum", "", "",0
@@ -209,16 +209,6 @@ Definitions:  {
 			}
 		}
 	}
-	ObjectType: "NodeAttribute" {
-		Count: 1
-		PropertyTemplate: "FbxNull" {
-			Properties70:  {
-				P: "Color", "ColorRGB", "Color", "",0.8,0.8,0.8
-				P: "Size", "double", "Number", "",100
-				P: "Look", "enum", "", "",1
-			}
-		}
-	}
 	ObjectType: "Geometry" {
 		Count: 2
 		PropertyTemplate: "FbxMesh" {
@@ -249,10 +239,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	NodeAttribute: 1505787456, "NodeAttribute::", "Null" {
-		TypeFlags: "Null"
-	}
-	Geometry: 1425582048, "Geometry::", "Mesh" {
+	Geometry: 2360665824, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.580392156862745
 		}
@@ -315,7 +302,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 1425580960, "Geometry::", "Mesh" {
+	Geometry: 2360668544, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.580392156862745
 		}
@@ -378,7 +365,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2452303728, "Model::Group001", "Null" {
+	Model: 2460201632, "Model::UCX_SM_Cardboard", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -386,104 +373,97 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "MaxHandle", "int", "Integer", "UH",109
-		}
-		Shading: T
-		Culling: "CullingOff"
-	}
-	Model: 2452246928, "Model::UCX_SM_Cardboard", "Mesh" {
-		Version: 232
-		Properties70:  {
-			P: "InheritType", "enum", "", "",1
-			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
-			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",3.0517578125e-005,0,-1.5
+			P: "Lcl Translation", "Lcl Translation", "", "A",3.0517578125e-005,-2.31270003318787,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.54180002212524,1.54180002212524,1.54180002212524
 			P: "MaxHandle", "int", "Integer", "UH",108
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2452233776, "Model::SM_Cardboard", "Mesh" {
+	Model: 2460210400, "Model::SM_Cardboard", "Mesh" {
 		Version: 232
 		Properties70:  {
+			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
+			P: "RotationActive", "bool", "", "",1
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",3.0517578125e-005,0,-1.5
+			P: "Lcl Translation", "Lcl Translation", "", "A",3.0517578125e-005,-2.31270003318787,-0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.54180002212524,1.54180002212524,1.54180002212524
 			P: "MaxHandle", "int", "Integer", "UH",105
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	AnimationStack: 1155025504, "AnimStack::Take 001", "" {
+	AnimationStack: 1143544240, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 1152367408, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2451841168, "AnimLayer::BaseLayer", "" {
 	}
-	CollectionExclusive: 2357580176, "DisplayLayer::SM_Book", "DisplayLayer" {
+	CollectionExclusive: 1143994448, "DisplayLayer::SM_Book", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.109803921568627,0.109803921568627,0.694117647058824
 		}
 	}
-	CollectionExclusive: 2357576912, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
+	CollectionExclusive: 1143991376, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2357577296, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
+	CollectionExclusive: 1143991568, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.56078431372549,0.341176470588235
 		}
 	}
-	CollectionExclusive: 2357583824, "DisplayLayer::Post-it-stack", "DisplayLayer" {
+	CollectionExclusive: 1143992720, "DisplayLayer::Post-it-stack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 		}
 	}
-	CollectionExclusive: 2357582288, "DisplayLayer::SM_Pencil", "DisplayLayer" {
+	CollectionExclusive: 1143992144, "DisplayLayer::SM_Pencil", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.345098039215686,0.694117647058824,0.105882352941176
 		}
 	}
-	CollectionExclusive: 2357578448, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
+	CollectionExclusive: 1143991952, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2357579792, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
+	CollectionExclusive: 1143992912, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.580392156862745
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2357573072, "DisplayLayer::SM_Eraser", "DisplayLayer" {
+	CollectionExclusive: 1143993104, "DisplayLayer::SM_Eraser", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.83921568627451,0.894117647058823,0.6
 		}
 	}
-	CollectionExclusive: 2357576336, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
+	CollectionExclusive: 1143993680, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.341176470588235,0.56078431372549
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2357578640, "DisplayLayer::SM_Brush", "DisplayLayer" {
+	CollectionExclusive: 1143993872, "DisplayLayer::SM_Brush", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.529411764705882,0.0235294117647059,0.0235294117647059
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2357578832, "DisplayLayer::SM_Tree", "DisplayLayer" {
+	CollectionExclusive: 1145261808, "DisplayLayer::SM_Tree", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.603921568627451,0.603921568627451,0.898039215686275
 		}
 	}
-	CollectionExclusive: 2357573840, "DisplayLayer::SM_Cardboard", "DisplayLayer" {
+	CollectionExclusive: 1145262384, "DisplayLayer::SM_Cardboard", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.650980392156863,0.898039215686275,0.898039215686275
 		}
@@ -495,35 +475,26 @@ Objects:  {
 
 Connections:  {
 	
-	;Model::Group001, Model::RootNode
-	C: "OO",2452303728,0
+	;Model::UCX_SM_Cardboard, Model::RootNode
+	C: "OO",2460201632,0
+	
+	;Model::SM_Cardboard, Model::RootNode
+	C: "OO",2460210400,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",1152367408,1155025504
-	
-	;Model::UCX_SM_Cardboard, Model::Group001
-	C: "OO",2452246928,2452303728
-	
-	;Model::SM_Cardboard, Model::Group001
-	C: "OO",2452233776,2452303728
-	
-	;NodeAttribute::, Model::Group001
-	C: "OO",1505787456,2452303728
+	C: "OO",2451841168,1143544240
 	
 	;Geometry::, Model::UCX_SM_Cardboard
-	C: "OO",1425582048,2452246928
+	C: "OO",2360665824,2460201632
 	
 	;Geometry::, Model::SM_Cardboard
-	C: "OO",1425580960,2452233776
-	
-	;Model::Group001, DisplayLayer::SM_Cardboard
-	C: "OO",2452303728,2357573840
+	C: "OO",2360668544,2460210400
 	
 	;Model::SM_Cardboard, DisplayLayer::SM_Cardboard
-	C: "OO",2452233776,2357573840
+	C: "OO",2460210400,1145262384
 	
 	;Model::UCX_SM_Cardboard, DisplayLayer::SM_Cardboard
-	C: "OO",2452246928,2357573840
+	C: "OO",2460201632,1145262384
 }
 ;Takes section
 ;----------------------------------------------------
