@@ -11,10 +11,10 @@ FBXHeaderExtension:  {
 		Year: 2019
 		Month: 1
 		Day: 12
-		Hour: 0
-		Minute: 47
-		Second: 49
-		Millisecond: 49
+		Hour: 1
+		Minute: 21
+		Second: 27
+		Millisecond: 107
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2014"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:47:49.045"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 06:21:27.104"
 			P: "Original|FileName", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GAMEJAM2019\BearGame\Assets\SM_Brush.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:47:49.045"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 06:21:27.104"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GameJam2019.max"
 		}
@@ -62,7 +62,7 @@ GlobalSettings:  {
 		P: "UnitScaleFactor", "double", "Number", "",1
 		P: "OriginalUnitScaleFactor", "double", "Number", "",1
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
-		P: "DefaultCamera", "KString", "", "", "Producer Front"
+		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
 		P: "TimeMode", "enum", "", "",6
 		P: "TimeProtocol", "enum", "", "",2
 		P: "SnapOnFrameMode", "enum", "", "",0
@@ -79,7 +79,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2539550176, "", "Scene" {
+	Document: 3090813920, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -99,7 +99,7 @@ References:  {
 
 Definitions:  {
 	Version: 100
-	Count: 19
+	Count: 29
 	ObjectType: "GlobalSettings" {
 		Count: 1
 	}
@@ -222,6 +222,35 @@ Definitions:  {
 			}
 		}
 	}
+	ObjectType: "Material" {
+		Count: 10
+		PropertyTemplate: "FbxSurfacePhong" {
+			Properties70:  {
+				P: "ShadingModel", "KString", "", "", "Phong"
+				P: "MultiLayer", "bool", "", "",0
+				P: "EmissiveColor", "Color", "", "A",0,0,0
+				P: "EmissiveFactor", "Number", "", "A",1
+				P: "AmbientColor", "Color", "", "A",0.2,0.2,0.2
+				P: "AmbientFactor", "Number", "", "A",1
+				P: "DiffuseColor", "Color", "", "A",0.8,0.8,0.8
+				P: "DiffuseFactor", "Number", "", "A",1
+				P: "Bump", "Vector3D", "Vector", "",0,0,0
+				P: "NormalMap", "Vector3D", "Vector", "",0,0,0
+				P: "BumpFactor", "double", "Number", "",1
+				P: "TransparentColor", "Color", "", "A",0,0,0
+				P: "TransparencyFactor", "Number", "", "A",0
+				P: "DisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "DisplacementFactor", "double", "Number", "",1
+				P: "VectorDisplacementColor", "ColorRGB", "Color", "",0,0,0
+				P: "VectorDisplacementFactor", "double", "Number", "",1
+				P: "SpecularColor", "Color", "", "A",0.2,0.2,0.2
+				P: "SpecularFactor", "Number", "", "A",1
+				P: "ShininessExponent", "Number", "", "A",20
+				P: "ReflectionColor", "Color", "", "A",0,0,0
+				P: "ReflectionFactor", "Number", "", "A",1
+			}
+		}
+	}
 	ObjectType: "CollectionExclusive" {
 		Count: 10
 		PropertyTemplate: "FbxDisplayLayer" {
@@ -239,7 +268,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2705952000, "Geometry::", "Mesh" {
+	Geometry: 3009579696, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.894117647058823,0.83921568627451,0.6
 		}
@@ -361,10 +390,23 @@ Objects:  {
 				a: 1,1,0,1,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,1,0,0,0,0,0,0,0,0,0,0,0,1,1,0,1,1,0,1,1,0,0,1,1,0,1,1,0,0,1,1,0,0,0,0,1,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,1,0,1,0,1,1,0,1,0,1,0,1,0,1,0,1,0,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0,1,0,1,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,1,0,0
 			} 
 		}
+		LayerElementMaterial: 0 {
+			Version: 101
+			Name: ""
+			MappingInformationType: "ByPolygon"
+			ReferenceInformationType: "IndexToDirect"
+			Materials: *416 {
+				a: 0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,2,2,2,2,2,2,2,2,2,2,2,2,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2
+			} 
+		}
 		Layer: 0 {
 			Version: 100
 			LayerElement:  {
 				Type: "LayerElementNormal"
+				TypedIndex: 0
+			}
+			LayerElement:  {
+				Type: "LayerElementMaterial"
 				TypedIndex: 0
 			}
 			LayerElement:  {
@@ -388,7 +430,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2705951456, "Geometry::", "Mesh" {
+	Geometry: 3009584592, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.443137254901961,0.529411764705882,0.0235294117647059
 		}
@@ -465,7 +507,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2705953632, "Geometry::", "Mesh" {
+	Geometry: 3009576432, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.0313725490196078,0.0313725490196078,0.533333333333333
 		}
@@ -544,7 +586,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2496417824, "Model::SM_Brush", "Mesh" {
+	Model: 2805046864, "Model::SM_Brush", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -559,7 +601,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 1216302464, "Model::UCX_SM_Brush_01", "Mesh" {
+	Model: 2805049056, "Model::UCX_SM_Brush_01", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -574,7 +616,7 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 3021257248, "Model::UCX_SM_Brush_02", "Mesh" {
+	Model: 2805062208, "Model::UCX_SM_Brush_02", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -589,61 +631,244 @@ Objects:  {
 		Shading: T
 		Culling: "CullingOff"
 	}
-	AnimationStack: 2754857440, "AnimStack::Take 001", "" {
+	Material: 3040058528, "Material::Plastic", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.164705887436867,0.588235318660736,0.588235318660736
+			P: "DiffuseColor", "Color", "", "A",0.164705887436867,0.588235318660736,0.588235318660736
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",1.99999988079071
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.164705887436867,0.588235318660736,0.588235318660736
+			P: "Diffuse", "Vector3D", "Vector", "",0.164705887436867,0.588235318660736,0.588235318660736
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",1.99999988079071
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040057088, "Material::Inside Paper", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "DiffuseColor", "Color", "", "A",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",1.99999988079071
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "Diffuse", "Vector3D", "Vector", "",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",1.99999988079071
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040052288, "Material::Ring", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.105882361531258,0.105882361531258,0.254901975393295
+			P: "DiffuseColor", "Color", "", "A",0.105882361531258,0.105882361531258,0.254901975393295
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",1.99999988079071
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.105882361531258,0.105882361531258,0.254901975393295
+			P: "Diffuse", "Vector3D", "Vector", "",0.105882361531258,0.105882361531258,0.254901975393295
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",1.99999988079071
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040055168, "Material::Paper", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "ShadingModel", "KString", "", "", "phong"
+			P: "EmissiveFactor", "Number", "", "A",0
+			P: "AmbientColor", "Color", "", "A",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "DiffuseColor", "Color", "", "A",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "TransparentColor", "Color", "", "A",1,1,1
+			P: "SpecularColor", "Color", "", "A",0.899999976158142,0.899999976158142,0.899999976158142
+			P: "SpecularFactor", "Number", "", "A",0
+			P: "ShininessExponent", "Number", "", "A",1.99999988079071
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "Diffuse", "Vector3D", "Vector", "",0.815686345100403,0.909803986549377,0.909803986549377
+			P: "Specular", "Vector3D", "Vector", "",0,0,0
+			P: "Shininess", "double", "Number", "",1.99999988079071
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040057568, "Material::Material #57 Slot #5", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "DiffuseColor", "Color", "", "A",0,0,0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
+			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Shininess", "double", "Number", "",20
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040051328, "Material::Material #57 Slot #6", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "DiffuseColor", "Color", "", "A",0,0,0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
+			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Shininess", "double", "Number", "",20
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040058048, "Material::Material #57 Slot #7", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "DiffuseColor", "Color", "", "A",0,0,0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
+			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Shininess", "double", "Number", "",20
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040051808, "Material::Material #57 Slot #8", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "DiffuseColor", "Color", "", "A",0,0,0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
+			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Shininess", "double", "Number", "",20
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040052768, "Material::Material #57 Slot #9", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "DiffuseColor", "Color", "", "A",0,0,0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
+			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Shininess", "double", "Number", "",20
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	Material: 3040055648, "Material::Material #57 Slot #10", "" {
+		Version: 102
+		ShadingModel: "phong"
+		MultiLayer: 0
+		Properties70:  {
+			P: "DiffuseColor", "Color", "", "A",0,0,0
+			P: "Emissive", "Vector3D", "Vector", "",0,0,0
+			P: "Ambient", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Diffuse", "Vector3D", "Vector", "",0,0,0
+			P: "Specular", "Vector3D", "Vector", "",0.2,0.2,0.2
+			P: "Shininess", "double", "Number", "",20
+			P: "Opacity", "double", "Number", "",1
+			P: "Reflectivity", "double", "Number", "",0
+		}
+	}
+	AnimationStack: 2574493936, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2578803600, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2748586928, "AnimLayer::BaseLayer", "" {
 	}
-	CollectionExclusive: 2749600272, "DisplayLayer::SM_Book", "DisplayLayer" {
+	CollectionExclusive: 2701070176, "DisplayLayer::SM_Book", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.109803921568627,0.109803921568627,0.694117647058824
+			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749592784, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
+	CollectionExclusive: 2701084576, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
+			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749592976, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
+	CollectionExclusive: 2701078432, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.56078431372549,0.341176470588235
 		}
 	}
-	CollectionExclusive: 2749595088, "DisplayLayer::Post-it-stack", "DisplayLayer" {
+	CollectionExclusive: 2701082656, "DisplayLayer::Post-it-stack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 		}
 	}
-	CollectionExclusive: 2749569936, "DisplayLayer::SM_Pencil", "DisplayLayer" {
+	CollectionExclusive: 2701080352, "DisplayLayer::SM_Pencil", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.345098039215686,0.694117647058824,0.105882352941176
+			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749568784, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
+	CollectionExclusive: 2701081312, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749573392, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
+	CollectionExclusive: 2701083616, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.580392156862745
+			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749575888, "DisplayLayer::SM_Eraser", "DisplayLayer" {
+	CollectionExclusive: 2701088032, "DisplayLayer::SM_Eraser", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.83921568627451,0.894117647058823,0.6
 		}
 	}
-	CollectionExclusive: 2749570896, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
+	CollectionExclusive: 2701084768, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.341176470588235,0.56078431372549
+			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2749574352, "DisplayLayer::SM_Brush", "DisplayLayer" {
+	CollectionExclusive: 2701087264, "DisplayLayer::SM_Brush", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.529411764705882,0.0235294117647059,0.0235294117647059
 		}
@@ -656,34 +881,64 @@ Objects:  {
 Connections:  {
 	
 	;Model::SM_Brush, Model::RootNode
-	C: "OO",2496417824,0
+	C: "OO",2805046864,0
 	
 	;Model::UCX_SM_Brush_01, Model::RootNode
-	C: "OO",1216302464,0
+	C: "OO",2805049056,0
 	
 	;Model::UCX_SM_Brush_02, Model::RootNode
-	C: "OO",3021257248,0
+	C: "OO",2805062208,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2578803600,2754857440
+	C: "OO",2748586928,2574493936
 	
 	;Geometry::, Model::SM_Brush
-	C: "OO",2705952000,2496417824
+	C: "OO",3009579696,2805046864
+	
+	;Material::Plastic, Model::SM_Brush
+	C: "OO",3040058528,2805046864
+	
+	;Material::Inside Paper, Model::SM_Brush
+	C: "OO",3040057088,2805046864
+	
+	;Material::Ring, Model::SM_Brush
+	C: "OO",3040052288,2805046864
+	
+	;Material::Paper, Model::SM_Brush
+	C: "OO",3040055168,2805046864
+	
+	;Material::Material #57 Slot #5, Model::SM_Brush
+	C: "OO",3040057568,2805046864
+	
+	;Material::Material #57 Slot #6, Model::SM_Brush
+	C: "OO",3040051328,2805046864
+	
+	;Material::Material #57 Slot #7, Model::SM_Brush
+	C: "OO",3040058048,2805046864
+	
+	;Material::Material #57 Slot #8, Model::SM_Brush
+	C: "OO",3040051808,2805046864
+	
+	;Material::Material #57 Slot #9, Model::SM_Brush
+	C: "OO",3040052768,2805046864
+	
+	;Material::Material #57 Slot #10, Model::SM_Brush
+	C: "OO",3040055648,2805046864
 	
 	;Geometry::, Model::UCX_SM_Brush_01
-	C: "OO",2705951456,1216302464
+	C: "OO",3009584592,2805049056
 	
 	;Geometry::, Model::UCX_SM_Brush_02
-	C: "OO",2705953632,3021257248
-	
-	;Model::SM_Brush, DisplayLayer::SM_Brush
-	C: "OO",2496417824,2749574352
+	C: "OO",3009576432,2805062208
 	
 	;Model::UCX_SM_Brush_02, DisplayLayer::SM_Brush
-	C: "OO",3021257248,2749574352
+	C: "OO",2805062208,2701087264
 	
 	;Model::UCX_SM_Brush_01, DisplayLayer::SM_Brush
-	C: "OO",1216302464,2749574352
+	C: "OO",2805049056,2701087264
+	
+	;Model::SM_Brush, DisplayLayer::SM_Brush
+	C: "OO",2805046864,2701087264
 }
 ;Takes section
 ;----------------------------------------------------
