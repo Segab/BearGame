@@ -12,9 +12,9 @@ FBXHeaderExtension:  {
 		Month: 1
 		Day: 12
 		Hour: 0
-		Minute: 35
-		Second: 20
-		Millisecond: 112
+		Minute: 37
+		Second: 27
+		Millisecond: 241
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2014"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:35:20.112"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:37:27.238"
 			P: "Original|FileName", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GAMEJAM2019\BearGame\Assets\SM_Brush.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:35:20.112"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "12/01/2019 05:37:27.238"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GameJam2019.max"
 		}
@@ -62,7 +62,7 @@ GlobalSettings:  {
 		P: "UnitScaleFactor", "double", "Number", "",1
 		P: "OriginalUnitScaleFactor", "double", "Number", "",1
 		P: "AmbientColor", "ColorRGB", "Color", "",0,0,0
-		P: "DefaultCamera", "KString", "", "", "Producer Perspective"
+		P: "DefaultCamera", "KString", "", "", "Producer Front"
 		P: "TimeMode", "enum", "", "",6
 		P: "TimeProtocol", "enum", "", "",2
 		P: "SnapOnFrameMode", "enum", "", "",0
@@ -79,7 +79,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2754800512, "", "Scene" {
+	Document: 2545081232, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -239,7 +239,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2705953632, "Geometry::", "Mesh" {
+	Geometry: 2705957984, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.894117647058823,0.83921568627451,0.6
 		}
@@ -388,7 +388,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2705956896, "Geometry::", "Mesh" {
+	Geometry: 2705952000, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.443137254901961,0.529411764705882,0.0235294117647059
 		}
@@ -465,7 +465,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2705951456, "Geometry::", "Mesh" {
+	Geometry: 2705955808, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.0313725490196078,0.0313725490196078,0.533333333333333
 		}
@@ -552,7 +552,8 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.1706531047821,1.1706531047821,1.1706531047821
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.0990035533905029,0.770172119140625,0.147526293992996
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.662983953952789,0.662983953952789,0.662983953952789
 			P: "MaxHandle", "int", "Integer", "UH",49
 		}
 		Shading: T
@@ -566,13 +567,14 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-0.0530162639915943,0,0.56069153547287
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.0689785033464432,0.770172119140625,0.46506655216217
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.566336870193481,0.566336870193481,0.566336870193481
 			P: "MaxHandle", "int", "Integer", "UH",50
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 3008836000, "Model::UCX_SM_Brush_02", "Mesh" {
+	Model: 3027346960, "Model::UCX_SM_Brush_02", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -580,51 +582,52 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",0.737904191017151,327.883026123047,0.459869503974915
+			P: "Lcl Translation", "Lcl Translation", "", "A",0.516905844211578,186.46240234375,0.407967329025269
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.566336870193481,0.566336870193481,0.566336870193481
 			P: "MaxHandle", "int", "Integer", "UH",51
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	AnimationStack: 2754877616, "AnimStack::Take 001", "" {
+	AnimationStack: 2754879280, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2581125344, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2545394192, "AnimLayer::BaseLayer", "" {
 	}
-	CollectionExclusive: 2749584144, "DisplayLayer::SM_Book", "DisplayLayer" {
+	CollectionExclusive: 2749588560, "DisplayLayer::SM_Book", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.109803921568627,0.109803921568627,0.694117647058824
 		}
 	}
-	CollectionExclusive: 2749587792, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
+	CollectionExclusive: 2749588944, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
 		}
 	}
-	CollectionExclusive: 2749588176, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
+	CollectionExclusive: 2749589328, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.56078431372549,0.341176470588235
 		}
 	}
-	CollectionExclusive: 2749588560, "DisplayLayer::Post-it-stack", "DisplayLayer" {
+	CollectionExclusive: 2749590480, "DisplayLayer::Post-it-stack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 		}
 	}
-	CollectionExclusive: 2749588752, "DisplayLayer::SM_Pencil", "DisplayLayer" {
+	CollectionExclusive: 2749599312, "DisplayLayer::SM_Pencil", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.345098039215686,0.694117647058824,0.105882352941176
 		}
 	}
-	CollectionExclusive: 2749588944, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
+	CollectionExclusive: 2749597776, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 		}
 	}
-	CollectionExclusive: 2749589328, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
+	CollectionExclusive: 2749600272, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.580392156862745
 		}
@@ -634,12 +637,12 @@ Objects:  {
 			P: "Color", "ColorRGB", "Color", "",0.83921568627451,0.894117647058823,0.6
 		}
 	}
-	CollectionExclusive: 2749594896, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
+	CollectionExclusive: 2749596432, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.341176470588235,0.56078431372549
 		}
 	}
-	CollectionExclusive: 2749600272, "DisplayLayer::SM_Brush", "DisplayLayer" {
+	CollectionExclusive: 2749595280, "DisplayLayer::SM_Brush", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.529411764705882,0.0235294117647059,0.0235294117647059
 		}
@@ -658,28 +661,28 @@ Connections:  {
 	C: "OO",1216302464,0
 	
 	;Model::UCX_SM_Brush_02, Model::RootNode
-	C: "OO",3008836000,0
+	C: "OO",3027346960,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2581125344,2754877616
+	C: "OO",2545394192,2754879280
 	
 	;Geometry::, Model::SM_Brush
-	C: "OO",2705953632,2496417824
+	C: "OO",2705957984,2496417824
 	
 	;Geometry::, Model::UCX_SM_Brush_01
-	C: "OO",2705956896,1216302464
+	C: "OO",2705952000,1216302464
 	
 	;Geometry::, Model::UCX_SM_Brush_02
-	C: "OO",2705951456,3008836000
+	C: "OO",2705955808,3027346960
 	
 	;Model::SM_Brush, DisplayLayer::SM_Brush
-	C: "OO",2496417824,2749600272
+	C: "OO",2496417824,2749595280
 	
 	;Model::UCX_SM_Brush_02, DisplayLayer::SM_Brush
-	C: "OO",3008836000,2749600272
+	C: "OO",3027346960,2749595280
 	
 	;Model::UCX_SM_Brush_01, DisplayLayer::SM_Brush
-	C: "OO",1216302464,2749600272
+	C: "OO",1216302464,2749595280
 }
 ;Takes section
 ;----------------------------------------------------
