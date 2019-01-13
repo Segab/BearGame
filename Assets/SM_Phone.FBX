@@ -12,9 +12,9 @@ FBXHeaderExtension:  {
 		Month: 1
 		Day: 13
 		Hour: 2
-		Minute: 30
-		Second: 27
-		Millisecond: 679
+		Minute: 35
+		Second: 58
+		Millisecond: 165
 	}
 	Creator: "FBX SDK/FBX Plugins version 2016.1"
 	SceneInfo: "SceneInfo::GlobalInfo", "UserData" {
@@ -36,13 +36,13 @@ FBXHeaderExtension:  {
 			P: "Original|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "Original|ApplicationName", "KString", "", "", "3ds Max"
 			P: "Original|ApplicationVersion", "KString", "", "", "2014"
-			P: "Original|DateTime_GMT", "DateTime", "", "", "13/01/2019 07:30:27.678"
+			P: "Original|DateTime_GMT", "DateTime", "", "", "13/01/2019 07:35:58.160"
 			P: "Original|FileName", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GAMEJAM2019\BearGame\Assets\SM_Phone.FBX"
 			P: "LastSaved", "Compound", "", ""
 			P: "LastSaved|ApplicationVendor", "KString", "", "", "Autodesk"
 			P: "LastSaved|ApplicationName", "KString", "", "", "3ds Max"
 			P: "LastSaved|ApplicationVersion", "KString", "", "", "2014"
-			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "13/01/2019 07:30:27.678"
+			P: "LastSaved|DateTime_GMT", "DateTime", "", "", "13/01/2019 07:35:58.160"
 			P: "Original|ApplicationActiveProject", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Documents\3dsMax"
 			P: "Original|ApplicationNativeFile", "KString", "", "", "\\rd-srvhd2\Enseignement\Utilisateurs\cou\Home\Desktop\GameJam2019.max"
 		}
@@ -79,7 +79,7 @@ GlobalSettings:  {
 
 Documents:  {
 	Count: 1
-	Document: 2573147040, "", "Scene" {
+	Document: 2573168592, "", "Scene" {
 		Properties70:  {
 			P: "SourceObject", "object", "", ""
 			P: "ActiveAnimStackName", "KString", "", "", ""
@@ -268,7 +268,7 @@ Definitions:  {
 ;------------------------------------------------------------------
 
 Objects:  {
-	Geometry: 2360998096, "Geometry::", "Mesh" {
+	Geometry: 2639601088, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.580392156862745,0.105882352941176
 		}
@@ -347,7 +347,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2360999184, "Geometry::", "Mesh" {
+	Geometry: 2639605984, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.529411764705882,0.0235294117647059,0.0235294117647059
 		}
@@ -723,7 +723,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2361000816, "Geometry::", "Mesh" {
+	Geometry: 2639606528, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.580392156862745,0.105882352941176
 		}
@@ -802,7 +802,7 @@ Objects:  {
 			}
 		}
 	}
-	Geometry: 2360999728, "Geometry::", "Mesh" {
+	Geometry: 2639607616, "Geometry::", "Mesh" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
 		}
@@ -866,7 +866,7 @@ Objects:  {
 			}
 		}
 	}
-	Model: 2834692640, "Model::UCX_SM_Phone_02", "Mesh" {
+	Model: 2838700448, "Model::UCX_SM_Phone_02", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -874,14 +874,14 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-1119.41162109375,6.103515625e-005,0.000244140625
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.07739996910095,1.07739996910095,1.07739996910095
+			P: "Lcl Translation", "Lcl Translation", "", "A",-712.563842773438,9.42695617675781,-79.544792175293
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.750605225563049,0.750605225563049,0.578070938587189
 			P: "MaxHandle", "int", "Integer", "UH",172
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2834694832, "Model::SM_Phone", "Mesh" {
+	Model: 2838696064, "Model::SM_Phone", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -890,15 +890,14 @@ Objects:  {
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "GeometricTranslation", "Vector3D", "Vector", "",-2200.02270507813,1361.85876464844,-88.3673553466797
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-85.80419921875,-20.672607421875,110.791717529297
-			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.0000093346676,-0,0
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",1,1,1.39359855651855
+			P: "Lcl Rotation", "Lcl Rotation", "", "A",90.000009334668,-0,0
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.696682035923004,0.536542534828186,0.970895051956177
 			P: "MaxHandle", "int", "Integer", "UH",166
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2834690448, "Model::UCX_SM_Phone_01", "Mesh" {
+	Model: 2838709216, "Model::UCX_SM_Phone_01", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -906,14 +905,14 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-5584.72509765625,6.103515625e-005,0.000244140625
-			P: "Lcl Scaling", "Lcl Scaling", "", "A",1.07739996910095,1.07739996910095,1.07739996910095
+			P: "Lcl Translation", "Lcl Translation", "", "A",-3823.46752929688,9.42695617675781,-79.544792175293
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.750605225563049,0.750605225563049,0.578070938587189
 			P: "MaxHandle", "int", "Integer", "UH",173
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Model: 2834697024, "Model::UCX_SM_Phone", "Mesh" {
+	Model: 2838698256, "Model::UCX_SM_Phone", "Mesh" {
 		Version: 232
 		Properties70:  {
 			P: "PreRotation", "Vector3D", "Vector", "",-90,-0,0
@@ -921,13 +920,14 @@ Objects:  {
 			P: "InheritType", "enum", "", "",1
 			P: "ScalingMax", "Vector3D", "Vector", "",0,0,0
 			P: "DefaultAttributeIndex", "int", "Integer", "",0
-			P: "Lcl Translation", "Lcl Translation", "", "A",-3168.5224609375,729.3642578125,129.719482421875
+			P: "Lcl Translation", "Lcl Translation", "", "A",-2140.142578125,400.761871337891,10.8282699584961
+			P: "Lcl Scaling", "Lcl Scaling", "", "A",0.696682035923004,0.696682035923004,0.536542534828186
 			P: "MaxHandle", "int", "Integer", "UH",174
 		}
 		Shading: T
 		Culling: "CullingOff"
 	}
-	Material: 1415201584, "Material::Plastic", "" {
+	Material: 2188383280, "Material::Plastic", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -949,7 +949,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 1415202064, "Material::Inside Paper", "" {
+	Material: 2188383760, "Material::Inside Paper", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -993,7 +993,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2188383760, "Material::Paper", "" {
+	Material: 1415202064, "Material::Paper", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -1015,7 +1015,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2188383280, "Material::Material #57 Slot #5", "" {
+	Material: 1415201584, "Material::Material #57 Slot #5", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -1030,7 +1030,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2719495696, "Material::Material #57 Slot #6", "" {
+	Material: 2723618992, "Material::Material #57 Slot #6", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -1045,7 +1045,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2719497616, "Material::Material #57 Slot #7", "" {
+	Material: 2723618512, "Material::Material #57 Slot #7", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -1060,7 +1060,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2719496176, "Material::Material #57 Slot #8", "" {
+	Material: 2723617552, "Material::Material #57 Slot #8", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -1075,7 +1075,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2719496656, "Material::Material #57 Slot #9", "" {
+	Material: 2723620912, "Material::Material #57 Slot #9", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -1090,7 +1090,7 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	Material: 2719497136, "Material::Material #57 Slot #10", "" {
+	Material: 2723619472, "Material::Material #57 Slot #10", "" {
 		Version: 102
 		ShadingModel: "phong"
 		MultiLayer: 0
@@ -1105,70 +1105,70 @@ Objects:  {
 			P: "Reflectivity", "double", "Number", "",0
 		}
 	}
-	AnimationStack: 2577034768, "AnimStack::Take 001", "" {
+	AnimationStack: 2577039136, "AnimStack::Take 001", "" {
 		Properties70:  {
 			P: "LocalStop", "KTime", "Time", "",153953860000
 			P: "ReferenceStop", "KTime", "Time", "",153953860000
 		}
 	}
-	AnimationLayer: 2583019392, "AnimLayer::BaseLayer", "" {
+	AnimationLayer: 2726483232, "AnimLayer::BaseLayer", "" {
 	}
-	CollectionExclusive: 2728813840, "DisplayLayer::SM_Book", "DisplayLayer" {
+	CollectionExclusive: 2458711440, "DisplayLayer::SM_Book", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.109803921568627,0.109803921568627,0.694117647058824
 		}
 	}
-	CollectionExclusive: 2728815184, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
+	CollectionExclusive: 2458707984, "DisplayLayer::SM_Hardbook", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.223529411764706,0.0313725490196078,0.533333333333333
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2728815568, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
+	CollectionExclusive: 2458708176, "DisplayLayer::SM_Ducktape", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.56078431372549,0.341176470588235
 		}
 	}
-	CollectionExclusive: 2728812880, "DisplayLayer::Post-it-stack", "DisplayLayer" {
+	CollectionExclusive: 2458709520, "DisplayLayer::Post-it-stack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 		}
 	}
-	CollectionExclusive: 2728813072, "DisplayLayer::SM_Pencil", "DisplayLayer" {
+	CollectionExclusive: 2728813264, "DisplayLayer::SM_Pencil", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.345098039215686,0.694117647058824,0.105882352941176
 		}
 	}
-	CollectionExclusive: 2728815760, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
+	CollectionExclusive: 2728815184, "DisplayLayer::SM_Thumbtack", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.694117647058824,0.109803921568627,0.584313725490196
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2728815952, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
+	CollectionExclusive: 2728812496, "DisplayLayer::SM_Eraser_02", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.105882352941176,0.694117647058824,0.580392156862745
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2728812496, "DisplayLayer::SM_Eraser", "DisplayLayer" {
+	CollectionExclusive: 2728813456, "DisplayLayer::SM_Eraser", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.83921568627451,0.894117647058823,0.6
 		}
 	}
-	CollectionExclusive: 2728814416, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
+	CollectionExclusive: 2728813840, "DisplayLayer::SM_Popsicle", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.341176470588235,0.56078431372549
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2728813264, "DisplayLayer::SM_Brush", "DisplayLayer" {
+	CollectionExclusive: 2728812880, "DisplayLayer::SM_Brush", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.529411764705882,0.0235294117647059,0.0235294117647059
 			P: "Show", "bool", "", "",0
 		}
 	}
-	CollectionExclusive: 2728814608, "DisplayLayer::SM_Tree", "DisplayLayer" {
+	CollectionExclusive: 2728813072, "DisplayLayer::SM_Tree", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.603921568627451,0.603921568627451,0.898039215686275
 		}
@@ -1178,22 +1178,22 @@ Objects:  {
 			P: "Color", "ColorRGB", "Color", "",0.650980392156863,0.898039215686275,0.898039215686275
 		}
 	}
-	CollectionExclusive: 2458711632, "DisplayLayer::cardboard_02", "DisplayLayer" {
+	CollectionExclusive: 2728814416, "DisplayLayer::cardboard_02", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.345098039215686,0.345098039215686,0.882352941176471
 		}
 	}
-	CollectionExclusive: 2458709520, "DisplayLayer::Grass_01", "DisplayLayer" {
+	CollectionExclusive: 2728815568, "DisplayLayer::Grass_01", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.882352941176471,0.776470588235294,0.341176470588235
 		}
 	}
-	CollectionExclusive: 2458709136, "DisplayLayer::BeeHive", "DisplayLayer" {
+	CollectionExclusive: 2728814608, "DisplayLayer::BeeHive", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.603921568627451,0.603921568627451,0.898039215686275
 		}
 	}
-	CollectionExclusive: 2458709712, "DisplayLayer::chair", "DisplayLayer" {
+	CollectionExclusive: 2728815760, "DisplayLayer::chair", "DisplayLayer" {
 		Properties70:  {
 			P: "Color", "ColorRGB", "Color", "",0.345098039215686,0.345098039215686,0.882352941176471
 			P: "Show", "bool", "", "",0
@@ -1207,61 +1207,61 @@ Objects:  {
 Connections:  {
 	
 	;Model::UCX_SM_Phone_02, Model::RootNode
-	C: "OO",2834692640,0
+	C: "OO",2838700448,0
 	
 	;Model::SM_Phone, Model::RootNode
-	C: "OO",2834694832,0
+	C: "OO",2838696064,0
 	
 	;Model::UCX_SM_Phone_01, Model::RootNode
-	C: "OO",2834690448,0
+	C: "OO",2838709216,0
 	
 	;Model::UCX_SM_Phone, Model::RootNode
-	C: "OO",2834697024,0
+	C: "OO",2838698256,0
 	
 	;AnimLayer::BaseLayer, AnimStack::Take 001
-	C: "OO",2583019392,2577034768
+	C: "OO",2726483232,2577039136
 	
 	;Geometry::, Model::UCX_SM_Phone_02
-	C: "OO",2360998096,2834692640
+	C: "OO",2639601088,2838700448
 	
 	;Geometry::, Model::SM_Phone
-	C: "OO",2360999184,2834694832
+	C: "OO",2639605984,2838696064
 	
 	;Material::Plastic, Model::SM_Phone
-	C: "OO",1415201584,2834694832
+	C: "OO",2188383280,2838696064
 	
 	;Material::Inside Paper, Model::SM_Phone
-	C: "OO",1415202064,2834694832
+	C: "OO",2188383760,2838696064
 	
 	;Material::Ring, Model::SM_Phone
-	C: "OO",2188382320,2834694832
+	C: "OO",2188382320,2838696064
 	
 	;Material::Paper, Model::SM_Phone
-	C: "OO",2188383760,2834694832
+	C: "OO",1415202064,2838696064
 	
 	;Material::Material #57 Slot #5, Model::SM_Phone
-	C: "OO",2188383280,2834694832
+	C: "OO",1415201584,2838696064
 	
 	;Material::Material #57 Slot #6, Model::SM_Phone
-	C: "OO",2719495696,2834694832
+	C: "OO",2723618992,2838696064
 	
 	;Material::Material #57 Slot #7, Model::SM_Phone
-	C: "OO",2719497616,2834694832
+	C: "OO",2723618512,2838696064
 	
 	;Material::Material #57 Slot #8, Model::SM_Phone
-	C: "OO",2719496176,2834694832
+	C: "OO",2723617552,2838696064
 	
 	;Material::Material #57 Slot #9, Model::SM_Phone
-	C: "OO",2719496656,2834694832
+	C: "OO",2723620912,2838696064
 	
 	;Material::Material #57 Slot #10, Model::SM_Phone
-	C: "OO",2719497136,2834694832
+	C: "OO",2723619472,2838696064
 	
 	;Geometry::, Model::UCX_SM_Phone_01
-	C: "OO",2361000816,2834690448
+	C: "OO",2639606528,2838709216
 	
 	;Geometry::, Model::UCX_SM_Phone
-	C: "OO",2360999728,2834697024
+	C: "OO",2639607616,2838698256
 }
 ;Takes section
 ;----------------------------------------------------
